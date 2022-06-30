@@ -1,0 +1,16 @@
+2                                  ! cond_lim: 1 box/ 2 absorption / 3 batteur/ 4 hydraulic jump/ 5 analytical solution ;
+0.05d0                         ! inclination angle
+300 1                         ! Nombre de mailles
+2.d0  0.d0	                   ! DOMAIN LENGTH
+10.0d0	                           ! Temps final
+90000000                           ! Nombre d'iterations totales
+9.81d0 0.8d0                       ! acceleration due to gravity, cfl
+0.01d0                          ! H_0
+22.76d0                           ! phi2 22.76d0 
+0.0036d0 0.00035d0                   ! cf, cr
+0.05d0                             ! amplitude des perturbation; 
+1000 1000                        ! ImpreE, ImpreF
+0.1d0 0.01d0 0.001d0                  ! lambda, gamma, beta
+
+
+
